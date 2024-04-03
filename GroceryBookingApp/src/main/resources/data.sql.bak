@@ -1,0 +1,17 @@
+INSERT INTO PRODUCT (Name, Description, Price, Quantity_Available, Category, Brand, Unit, Nutritional_Information, Expiry_Date, Weight, Dimensions, Creation_Date, Last_Updated_Date)
+VALUES
+  ('Apple', 'Fresh red apple', 2.99, 100, 'Fruits', 'Apple Inc.', 'kg', 'Calories: 52, Fat: 0.2g, Carbs: 14g, Protein: 0.3g', '2024-04-01', 0.1, '5x5x5', CURRENT_DATE, CURRENT_DATE),
+  ('Banana', 'Ripe yellow banana', 1.49, 150, 'Fruits', 'Chiquita', 'piece', 'Calories: 105, Fat: 0.4g, Carbs: 27g, Protein: 1.3g', '2024-04-03', 0.15, '6x6x6', CURRENT_DATE, CURRENT_DATE),
+  ('Carrot', 'Fresh orange carrot', 0.75, 200, 'Vegetables', 'Farm Fresh', 'kg', 'Calories: 41, Fat: 0.2g, Carbs: 10g, Protein: 1g', '2024-04-05', 0.2, '7x7x7', CURRENT_DATE, CURRENT_DATE),
+  ('Milk', 'Fresh dairy milk', 2.25, 50, 'Dairy', 'DairyCo', 'liter', 'Calories: 42, Fat: 2.4g, Carbs: 4.7g, Protein: 3.4g', '2024-04-07', 1.0, '10x10x10', CURRENT_DATE, CURRENT_DATE),
+  ('Bread', 'Whole wheat bread', 3.49, 75, 'Bakery', 'Baker's Delight', 'piece', 'Calories: 78, Fat: 1g, Carbs: 14g, Protein: 3g', '2024-04-10', 0.5, '8x8x8', CURRENT_DATE, CURRENT_DATE),
+  ('Eggs', 'Fresh chicken eggs', 1.99, 100, 'Dairy', 'Eggcellent Farms', 'dozen', 'Calories: 78, Fat: 5g, Carbs: 1.6g, Protein: 6g', '2024-04-15', 0.6, '9x9x9', CURRENT_DATE, CURRENT_DATE),
+  ('Potato', 'Fresh brown potato', 0.99, 120, 'Vegetables', 'Farm Fresh', 'kg', 'Calories: 77, Fat: 0.1g, Carbs: 17g, Protein: 2g', '2024-04-18', 0.3, '11x11x11', CURRENT_DATE, CURRENT_DATE),
+  ('Orange Juice', 'Fresh orange juice', 4.99, 30, 'Beverages', 'Juicy Co.', 'liter', 'Calories: 45, Fat: 0.2g, Carbs: 10g, Protein: 1g', '2024-04-20', 1.5, '12x12x12', CURRENT_DATE, CURRENT_DATE),
+  ('Cucumber', 'Fresh green cucumber', 1.25, 80, 'Vegetables', 'Farm Fresh', 'kg', 'Calories: 15, Fat: 0.1g, Carbs: 3.6g, Protein: 0.6g', '2024-04-22', 0.25, '13x13x13', CURRENT_DATE, CURRENT_DATE),
+  ('Yogurt', 'Natural yogurt', 2.99, 60, 'Dairy', 'DairyCo', 'kg', 'Calories: 59, Fat: 3.3g, Carbs: 3.6g, Protein: 3.5g', '2024-04-25', 0.8, '14x14x14', CURRENT_DATE, CURRENT_DATE),
+  ('Tomato', 'Fresh red tomato', 1.49, 90, 'Vegetables', 'Farm Fresh', 'kg', 'Calories: 18, Fat: 0.2g, Carbs: 3.9g, Protein: 0.9g', '2024-04-27', 0.4, '15x15x15', CURRENT_DATE, CURRENT_DATE),
+  ('Cheese', 'Cheddar cheese', 5.99, 40, 'Dairy', 'Cheesy Co.', 'kg', 'Calories: 402, Fat: 33g, Carbs: 1.3g, Protein: 25g', '2024-05-01', 0.7, '16x16x16', CURRENT_DATE, CURRENT_DATE),
+  ('Lettuce', 'Fresh green lettuce', 1.75, 70, 'Vegetables', 'Farm Fresh', 'piece', 'Calories: 15, Fat: 0.2g, Carbs: 2.9g, Protein: 1.4g', '2024-05-03', 0.2, '17x17x17', CURRENT_DATE, CURRENT_DATE),
+  ('Pasta', 'Whole wheat pasta', 2.49, 55, 'Pantry', 'Pasta Co.', 'kg', 'Calories: 180, Fat: 1g, Carbs: 39g, Protein: 7g', '2024-05-05', 0.9, '18x18x18', CURRENT_DATE, CURRENT_DATE),
+  ('Rice', 'Basmati rice', 3.99, 65, 'Pantry', 'Rice Co.', 'kg', 'Calories: 130, Fat: 0.3g, Carbs: 28g, Protein: 2.7g', '2024-05-08', 1.2, '19x19x19', CURRENT_DATE, CURRENT_DATE);
