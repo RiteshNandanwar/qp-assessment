@@ -39,8 +39,8 @@ public class ProductService {
 	public Product updateProduct(Product productToSave) {
 		Product product = getProduct(productToSave.getProductId());
 		product.setProductName(productToSave.getProductName());
-		productRepo.save(product);
-		return product;
+		Product savedProduct = productRepo.save(product);
+		return savedProduct;
 	}
 
 	public Product manageInventory(Long productId, Product productRequest) {

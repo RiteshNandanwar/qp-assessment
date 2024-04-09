@@ -47,8 +47,8 @@ public class OrderService {
 			order.setProducts(products);
 			order.setNotes(request.getNotes());
 			order.setStatus("COMPLETE");
-			orderRepo.save(order);
-			response = prepareOrderResponse(order);
+			Order save = orderRepo.save(order);
+			response = prepareOrderResponse(save);
 		}
 		return response;
 	}

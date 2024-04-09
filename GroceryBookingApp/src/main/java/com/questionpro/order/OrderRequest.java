@@ -9,6 +9,13 @@ public class OrderRequest {
 		super();
 		// TODO Auto-generated constructor stub
 	}
+	
+
+	public OrderRequest(Long[] items, String notes) {
+		super();
+		this.items = items;
+		this.notes = notes;
+	}
 
 	public Long[] getItems() {
 		return items;
